@@ -1,17 +1,27 @@
 h1 {
   text-align: center;
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
+.h1 {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#error {
+  display: none;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
 h2 {
   text-align: center;
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
 }
 
-select, input {
+select,
+input {
   margin-bottom: 25px;
   padding: 10px;
   width: 200px;
@@ -27,12 +37,12 @@ span {
 #form-box {
   text-align: center;
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .button {
-  font-family: 'Roboto', sans-serif;
-  background-color: #ABABF0;
+  font-family: "Roboto", sans-serif;
+  background-color: #3081d0;
   position: relative;
   top: 0;
   padding: 20px;
@@ -48,17 +58,27 @@ span {
   grid-template-columns: 50% 50%;
 }
 .card {
-  background-color: #8d97ce;
+  background-color: #6db9ef;
   border: 1px #000 solid;
   border-radius: 3px;
   margin: 5px;
   padding: 10px;
   display: grid;
 }
+.grilla-datos {
+  display: flex;
+}
+.card-datos {
+  background-color: #6db9ef;
+  border: 1px #000 solid;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+}
 thead,
 tfoot {
-  background-color: #3f87a6;
-  color: #fff;
+  background-color: #3081d0;
+  color: #e2e2e2;
 }
 
 tbody {
@@ -66,7 +86,7 @@ tbody {
 }
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(200, 200, 200);
+  border: 2px solid #3081d0;
   letter-spacing: 1px;
   font-family: sans-serif;
   font-size: 0.8rem;
@@ -74,9 +94,13 @@ table {
 
 td,
 th {
-  border: 1px solid rgb(190, 190, 190);
+  border: 1px solid #3081d0;
   padding: 5px 10px;
 }
 td {
   text-align: center;
+}
+body {
+  background: linear-gradient(#fff5c2, #f4f27e);
+  background: #164863;
 }
